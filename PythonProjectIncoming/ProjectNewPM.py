@@ -627,28 +627,35 @@ class Ui_MainWindow(object):
         self.OrderbyTable1.setObjectName("OrderbyTable1")
         self.Chick = QtWidgets.QSpinBox(self.OrderbyTable1)
         self.Chick.setGeometry(QtCore.QRect(90, 110, 141, 51))
+        self.Chick.setMaximum(20)
         self.Chick.setObjectName("Chick")
         self.Fish = QtWidgets.QSpinBox(self.OrderbyTable1)
         self.Fish.setGeometry(QtCore.QRect(90, 230, 141, 51))
+        self.Fish.setMaximum(20)
         self.Fish.setObjectName("Fish")
         self.Ham = QtWidgets.QSpinBox(self.OrderbyTable1)
         self.Ham.setGeometry(QtCore.QRect(100, 350, 141, 51))
+        self.Ham.setMaximum(20)
         self.Ham.setObjectName("Ham")
         self.Pork = QtWidgets.QSpinBox(self.OrderbyTable1)
         self.Pork.setGeometry(QtCore.QRect(90, 470, 141, 51))
+        self.Pork.setMaximum(20)
         self.Pork.setObjectName("Pork")
         self.Suasage = QtWidgets.QSpinBox(self.OrderbyTable1)
         self.Suasage.setGeometry(QtCore.QRect(90, 580, 141, 51))
+        self.Suasage.setMaximum(20)
         self.Suasage.setObjectName("Suasage")
         self.FF = QtWidgets.QSpinBox(self.OrderbyTable1)
         self.FF.setGeometry(QtCore.QRect(490, 220, 141, 51))
-        self.FF.setMaximum(100)
+        self.FF.setMaximum(20)
         self.FF.setObjectName("FF")
         self.Potato = QtWidgets.QSpinBox(self.OrderbyTable1)
         self.Potato.setGeometry(QtCore.QRect(490, 350, 141, 51))
+        self.Potato.setMaximum(20)
         self.Potato.setObjectName("Potato")
         self.Bread = QtWidgets.QSpinBox(self.OrderbyTable1)
         self.Bread.setGeometry(QtCore.QRect(480, 470, 141, 51))
+        self.Bread.setMaximum(20)
         self.Bread.setObjectName("Bread")
         self.PlaceOrderB = QtWidgets.QPushButton(self.OrderbyTable1)
         self.PlaceOrderB.setGeometry(QtCore.QRect(700, 520, 161, 61))
@@ -761,6 +768,7 @@ class Ui_MainWindow(object):
         self.OrderbyTable2.setObjectName("OrderbyTable2")
         self.Bread_2 = QtWidgets.QSpinBox(self.OrderbyTable2)
         self.Bread_2.setGeometry(QtCore.QRect(490, 450, 141, 51))
+        self.Bread_2.setMaximum(20)
         self.Bread_2.setObjectName("Bread_2")
         self.FrenchFries_2 = QtWidgets.QLabel(self.OrderbyTable2)
         self.FrenchFries_2.setGeometry(QtCore.QRect(510, 165, 121, 21))
@@ -771,9 +779,11 @@ class Ui_MainWindow(object):
         self.FrenchFries_2.setObjectName("FrenchFries_2")
         self.Ham_2 = QtWidgets.QSpinBox(self.OrderbyTable2)
         self.Ham_2.setGeometry(QtCore.QRect(110, 330, 141, 51))
+        self.Ham_2.setMaximum(20)
         self.Ham_2.setObjectName("Ham_2")
         self.Fish_2 = QtWidgets.QSpinBox(self.OrderbyTable2)
         self.Fish_2.setGeometry(QtCore.QRect(100, 210, 141, 51))
+        self.Fish_2.setMaximum(20)
         self.Fish_2.setObjectName("Fish_2")
         self.GrilledbutterBread_2 = QtWidgets.QLabel(self.OrderbyTable2)
         self.GrilledbutterBread_2.setGeometry(QtCore.QRect(500, 415, 151, 31))
@@ -784,7 +794,7 @@ class Ui_MainWindow(object):
         self.GrilledbutterBread_2.setObjectName("GrilledbutterBread_2")
         self.FF_2 = QtWidgets.QSpinBox(self.OrderbyTable2)
         self.FF_2.setGeometry(QtCore.QRect(500, 200, 141, 51))
-        self.FF_2.setMaximum(100)
+        self.FF_2.setMaximum(20)
         self.FF_2.setObjectName("FF_2")
         self.Hamsteak_2 = QtWidgets.QLabel(self.OrderbyTable2)
         self.Hamsteak_2.setGeometry(QtCore.QRect(120, 295, 101, 31))
@@ -809,9 +819,11 @@ class Ui_MainWindow(object):
         self.PlaceOrderB_2.setObjectName("PlaceOrderB_2")
         self.Chick_2 = QtWidgets.QSpinBox(self.OrderbyTable2)
         self.Chick_2.setGeometry(QtCore.QRect(100, 90, 141, 51))
+        self.Chick_2.setMaximum(20)
         self.Chick_2.setObjectName("Chick_2")
         self.Suasage_3 = QtWidgets.QSpinBox(self.OrderbyTable2)
         self.Suasage_3.setGeometry(QtCore.QRect(100, 560, 141, 51))
+        self.Suasage_3.setMaximum(20)
         self.Suasage_3.setObjectName("Suasage_3")
         self.FrieFish_2 = QtWidgets.QLabel(self.OrderbyTable2)
         self.FrieFish_2.setGeometry(QtCore.QRect(110, 169, 111, 31))
@@ -843,9 +855,11 @@ class Ui_MainWindow(object):
         self.BakedPotato_2.setObjectName("BakedPotato_2")
         self.Pork_2 = QtWidgets.QSpinBox(self.OrderbyTable2)
         self.Pork_2.setGeometry(QtCore.QRect(100, 450, 141, 51))
+        self.Pork_2.setMaximum(20)
         self.Pork_2.setObjectName("Pork_2")
         self.Potato_2 = QtWidgets.QSpinBox(self.OrderbyTable2)
         self.Potato_2.setGeometry(QtCore.QRect(500, 330, 141, 51))
+        self.Potato_2.setMaximum(20)
         self.Potato_2.setObjectName("Potato_2")
         self.PorkChopSteak_2 = QtWidgets.QLabel(self.OrderbyTable2)
         self.PorkChopSteak_2.setGeometry(QtCore.QRect(120, 405, 131, 31))
@@ -895,12 +909,15 @@ class Ui_MainWindow(object):
         self.OrderbyTable3.setObjectName("OrderbyTable3")
         self.Bread_3 = QtWidgets.QSpinBox(self.OrderbyTable3)
         self.Bread_3.setGeometry(QtCore.QRect(460, 440, 141, 51))
+        self.Bread_3.setMaximum(20)
         self.Bread_3.setObjectName("Bread_3")
         self.Fish_3 = QtWidgets.QSpinBox(self.OrderbyTable3)
         self.Fish_3.setGeometry(QtCore.QRect(70, 200, 141, 51))
+        self.Fish_3.setMaximum(20)
         self.Fish_3.setObjectName("Fish_3")
         self.Potato_3 = QtWidgets.QSpinBox(self.OrderbyTable3)
         self.Potato_3.setGeometry(QtCore.QRect(470, 320, 141, 51))
+        self.Potato_3.setMaximum(20)
         self.Potato_3.setObjectName("Potato_3")
         self.BackB_13 = QtWidgets.QPushButton(self.OrderbyTable3)
         self.BackB_13.setGeometry(QtCore.QRect(680, 567, 161, 61))
@@ -911,6 +928,7 @@ class Ui_MainWindow(object):
         self.BackB_13.setObjectName("BackB_13")
         self.Suasage_5 = QtWidgets.QSpinBox(self.OrderbyTable3)
         self.Suasage_5.setGeometry(QtCore.QRect(70, 550, 141, 51))
+        self.Suasage_5.setMaximum(20)
         self.Suasage_5.setObjectName("Suasage_5")
         self.FrenchFries_3 = QtWidgets.QLabel(self.OrderbyTable3)
         self.FrenchFries_3.setGeometry(QtCore.QRect(480, 155, 121, 21))
@@ -963,6 +981,7 @@ class Ui_MainWindow(object):
         self.Suasage_6.setObjectName("Suasage_6")
         self.Pork_3 = QtWidgets.QSpinBox(self.OrderbyTable3)
         self.Pork_3.setGeometry(QtCore.QRect(70, 440, 141, 51))
+        self.Pork_3.setMaximum(20)
         self.Pork_3.setObjectName("Pork_3")
         self.SpicyChicken_3 = QtWidgets.QLabel(self.OrderbyTable3)
         self.SpicyChicken_3.setGeometry(QtCore.QRect(90, 35, 121, 31))
@@ -973,13 +992,15 @@ class Ui_MainWindow(object):
         self.SpicyChicken_3.setObjectName("SpicyChicken_3")
         self.Chick_3 = QtWidgets.QSpinBox(self.OrderbyTable3)
         self.Chick_3.setGeometry(QtCore.QRect(70, 80, 141, 51))
+        self.Chick_3.setMaximum(20)
         self.Chick_3.setObjectName("Chick_3")
         self.Ham_3 = QtWidgets.QSpinBox(self.OrderbyTable3)
         self.Ham_3.setGeometry(QtCore.QRect(80, 320, 141, 51))
+        self.Ham_3.setMaximum(20)
         self.Ham_3.setObjectName("Ham_3")
         self.FF_3 = QtWidgets.QSpinBox(self.OrderbyTable3)
         self.FF_3.setGeometry(QtCore.QRect(470, 190, 141, 51))
-        self.FF_3.setMaximum(100)
+        self.FF_3.setMaximum(20)
         self.FF_3.setObjectName("FF_3")
         self.GrilledbutterBread_3 = QtWidgets.QLabel(self.OrderbyTable3)
         self.GrilledbutterBread_3.setGeometry(QtCore.QRect(470, 395, 151, 41))
@@ -1029,6 +1050,7 @@ class Ui_MainWindow(object):
         self.OrderbyTable4.setObjectName("OrderbyTable4")
         self.Bread_4 = QtWidgets.QSpinBox(self.OrderbyTable4)
         self.Bread_4.setGeometry(QtCore.QRect(460, 430, 141, 51))
+        self.Bread_4.setMaximum(20)
         self.Bread_4.setObjectName("Bread_4")
         self.Suasage_8 = QtWidgets.QLabel(self.OrderbyTable4)
         self.Suasage_8.setGeometry(QtCore.QRect(80, 505, 111, 31))
@@ -1039,6 +1061,7 @@ class Ui_MainWindow(object):
         self.Suasage_8.setObjectName("Suasage_8")
         self.Fish_4 = QtWidgets.QSpinBox(self.OrderbyTable4)
         self.Fish_4.setGeometry(QtCore.QRect(70, 190, 141, 51))
+        self.Fish_4.setMaximum(20)
         self.Fish_4.setObjectName("Fish_4")
         self.BakedPotato_4 = QtWidgets.QLabel(self.OrderbyTable4)
         self.BakedPotato_4.setGeometry(QtCore.QRect(480, 275, 101, 31))
@@ -1084,9 +1107,11 @@ class Ui_MainWindow(object):
         self.FrenchFries_4.setObjectName("FrenchFries_4")
         self.Pork_4 = QtWidgets.QSpinBox(self.OrderbyTable4)
         self.Pork_4.setGeometry(QtCore.QRect(70, 430, 141, 51))
+        self.Pork_4.setMaximum(20)
         self.Pork_4.setObjectName("Pork_4")
         self.Ham_4 = QtWidgets.QSpinBox(self.OrderbyTable4)
         self.Ham_4.setGeometry(QtCore.QRect(80, 310, 141, 51))
+        self.Ham_4.setMaximum(20)
         self.Ham_4.setObjectName("Ham_4")
         self.Hamsteak_4 = QtWidgets.QLabel(self.OrderbyTable4)
         self.Hamsteak_4.setGeometry(QtCore.QRect(100, 280, 91, 21))
@@ -1111,16 +1136,19 @@ class Ui_MainWindow(object):
         self.SpicyChicken_4.setObjectName("SpicyChicken_4")
         self.Chick_4 = QtWidgets.QSpinBox(self.OrderbyTable4)
         self.Chick_4.setGeometry(QtCore.QRect(70, 70, 141, 51))
+        self.Chick_4.setMaximum(20)
         self.Chick_4.setObjectName("Chick_4")
         self.Suasage_7 = QtWidgets.QSpinBox(self.OrderbyTable4)
         self.Suasage_7.setGeometry(QtCore.QRect(70, 540, 141, 51))
+        self.Suasage_7.setMaximum(20)
         self.Suasage_7.setObjectName("Suasage_7")
         self.Potato_4 = QtWidgets.QSpinBox(self.OrderbyTable4)
         self.Potato_4.setGeometry(QtCore.QRect(470, 310, 141, 51))
+        self.Potato_4.setMaximum(20)
         self.Potato_4.setObjectName("Potato_4")
         self.FF_4 = QtWidgets.QSpinBox(self.OrderbyTable4)
         self.FF_4.setGeometry(QtCore.QRect(470, 180, 141, 51))
-        self.FF_4.setMaximum(100)
+        self.FF_4.setMaximum(20)
         self.FF_4.setObjectName("FF_4")
         self.MenuPicture_15 = QtWidgets.QLabel(self.OrderbyTable4)
         self.MenuPicture_15.setGeometry(QtCore.QRect(-10, -10, 900, 681))
@@ -1163,9 +1191,11 @@ class Ui_MainWindow(object):
         self.OrderbyTable5.setObjectName("OrderbyTable5")
         self.Bread_5 = QtWidgets.QSpinBox(self.OrderbyTable5)
         self.Bread_5.setGeometry(QtCore.QRect(470, 440, 141, 51))
+        self.Bread_5.setMaximum(20)
         self.Bread_5.setObjectName("Bread_5")
         self.Suasage_9 = QtWidgets.QSpinBox(self.OrderbyTable5)
         self.Suasage_9.setGeometry(QtCore.QRect(80, 550, 141, 51))
+        self.Suasage_9.setMaximum(20)
         self.Suasage_9.setObjectName("Suasage_9")
         self.Suasage_10 = QtWidgets.QLabel(self.OrderbyTable5)
         self.Suasage_10.setGeometry(QtCore.QRect(90, 515, 111, 31))
@@ -1232,22 +1262,27 @@ class Ui_MainWindow(object):
         self.FrieFish_5.setObjectName("FrieFish_5")
         self.Chick_5 = QtWidgets.QSpinBox(self.OrderbyTable5)
         self.Chick_5.setGeometry(QtCore.QRect(80, 80, 141, 51))
+        self.Chick_5.setMaximum(20)
         self.Chick_5.setObjectName("Chick_5")
         self.Ham_5 = QtWidgets.QSpinBox(self.OrderbyTable5)
         self.Ham_5.setGeometry(QtCore.QRect(90, 320, 141, 51))
+        self.Ham_5.setMaximum(20)
         self.Ham_5.setObjectName("Ham_5")
         self.Pork_5 = QtWidgets.QSpinBox(self.OrderbyTable5)
         self.Pork_5.setGeometry(QtCore.QRect(80, 440, 141, 51))
+        self.Pork_5.setMaximum(20)
         self.Pork_5.setObjectName("Pork_5")
         self.Potato_5 = QtWidgets.QSpinBox(self.OrderbyTable5)
         self.Potato_5.setGeometry(QtCore.QRect(480, 320, 141, 51))
+        self.Potato_5.setMaximum(20)
         self.Potato_5.setObjectName("Potato_5")
         self.Fish_5 = QtWidgets.QSpinBox(self.OrderbyTable5)
         self.Fish_5.setGeometry(QtCore.QRect(80, 200, 141, 51))
+        self.Fish_5.setMaximum(20)
         self.Fish_5.setObjectName("Fish_5")
         self.FF_5 = QtWidgets.QSpinBox(self.OrderbyTable5)
         self.FF_5.setGeometry(QtCore.QRect(480, 190, 141, 51))
-        self.FF_5.setMaximum(100)
+        self.FF_5.setMaximum(20)
         self.FF_5.setObjectName("FF_5")
         self.GrilledbutterBread_5 = QtWidgets.QLabel(self.OrderbyTable5)
         self.GrilledbutterBread_5.setGeometry(QtCore.QRect(480, 405, 121, 31))
@@ -1301,7 +1336,6 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         self.stackedWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
-
 
                                         #Click
         self.MenuB.clicked.connect(self.goMenuP)
@@ -1499,14 +1533,31 @@ class Ui_MainWindow(object):
         self.ordertable1set["bread1"] = self.orderbread1
         
     def ordertable2(self):
+        self.ordertable2set={}
         self.orderbread2 = self.Bread_2.value()
+        if self.orderbread2 == "":
+            self.orderbread2 = 0
         self.orderchick2 = self.Chick_2.value()
+        if self.orderchick2 == "":
+            self.orderchick2 = 0
         self.orderff2 = self.FF_2.value()
+        if self.orderff2 == "":
+            self.orderff2 = 0
         self.orderfish2 = self.Fish_2.value()
+        if self.orderfish2 == "":
+            self.orderfish2 = 0
         self.orderham2 = self.Ham_2.value()
+        if  self.orderham2 == "":
+             self.orderham2 =0
         self.orderpork2 = self.Pork_2.value()
+        if self.orderpork2 == "":
+            self.orderpork2 = 0
         self.orderpotato2 = self.Potato_2.value()
+        if self.orderpotato2 == "":
+            self.orderpotato2 = 0
         self.ordersuasage2 = self.Suasage_3.value()
+        if self.ordersuasage2 == "":
+            self.ordersuasage2
 
         self.ordertable2set["chick2"] = self.orderchick2
         self.ordertable2set["fish2"] = self.orderfish2
@@ -1594,7 +1645,7 @@ class Ui_MainWindow(object):
     def showtotal2(self):
         self.total2 = (self.ordertable2set.get('chick2')*59) + (self.ordertable2set.get('fish2')*59) + (self.ordertable2set.get('ham2')*69) + (self.ordertable2set.get('pork2')*69) + (self.ordertable2set.get('suasage2')*59) +(self.ordertable2set.get('frenchfries2')*39) + (self.ordertable2set.get('potato2')*39) + (self.ordertable2set.get('bread2')*39)
 
-        self.Showtotal_2.setText(str(self.total2))
+        self.ShowTotal_2.setText(str(self.total2))
                 
     def showtotal3(self):
         self.total3 = (self.ordertable3set.get('chick3')*59) + (self.ordertable3set.get('fish3')*59) + (self.ordertable3set.get('ham3')*69) + (self.ordertable3set.get('pork3')*69) + (self.ordertable3set.get('suasage3')*59) +(self.ordertable3set.get('frenchfries3')*39) + (self.ordertable3set.get('potato3')*39) + (self.ordertable3set.get('bread3')*39)
@@ -1751,16 +1802,11 @@ class Ui_MainWindow(object):
         all_values = []
         all_values = self.Bestselllist.values()
         
-        print(all_values)
-        
         max_value = max(all_values)
 
-        print(max_value)
-        
         lst_best_menu=[]
         for key , value in self.Bestselllist.items():
             if max_value == value:
-                print(key)
                 max_key = key
                 lst_best_menu.append(key)
                 
@@ -1770,7 +1816,7 @@ class Ui_MainWindow(object):
         lst_best_menu = lst_best_menu.replace("'","")
 
         
-        self.Bestsellname.setText(lst_best_menu+ " : " +str(max_value))            
+        self.Bestsellname.setText(lst_best_menu+ " : " +str(max_value))
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
