@@ -1337,7 +1337,7 @@ class Ui_MainWindow(object):
         self.stackedWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-                                        #Click
+        #Clickconnect
         self.MenuB.clicked.connect(self.goMenuP)
         self.BestsellB.clicked.connect(self.goBestsellP)
         
@@ -1816,7 +1816,7 @@ class Ui_MainWindow(object):
         lst_best_menu = lst_best_menu.replace("'","")
 
         
-        self.Bestsellname.setText(lst_best_menu+ " : " +str(max_value))
+        self.Bestsellname.setText(lst_best_menu+ " : " +str(max_value)) 
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -1886,11 +1886,11 @@ class Ui_MainWindow(object):
         self.Hamsteak.setText(_translate("MainWindow", "Ham steak"))
         self.PorkChopSteak.setText(_translate("MainWindow", "Pork chop steak"))
         self.Suasage_2.setText(_translate("MainWindow", "Suasage"))
-        self.FrenchFries.setText(_translate("MainWindow", "French Fish"))
+        self.FrenchFries.setText(_translate("MainWindow", "French fries"))
         self.BakedPotato.setText(_translate("MainWindow", "Baked Potato"))
         self.GrilledbutterBread.setText(_translate("MainWindow", "Grilled butter bread"))
         self.label_8.setText(_translate("MainWindow", "Order by Table 1"))
-        self.FrenchFries_2.setText(_translate("MainWindow", "French Fish"))
+        self.FrenchFries_2.setText(_translate("MainWindow", "French fries"))
         self.GrilledbutterBread_2.setText(_translate("MainWindow", "Grilled butter bread"))
         self.Hamsteak_2.setText(_translate("MainWindow", "Ham steak"))
         self.Suasage_4.setText(_translate("MainWindow", "Suasage"))
@@ -1902,7 +1902,7 @@ class Ui_MainWindow(object):
         self.PorkChopSteak_2.setText(_translate("MainWindow", "Pork chop steak"))
         self.label_9.setText(_translate("MainWindow", "Order by Table 2"))
         self.BackB_13.setText(_translate("MainWindow", "Back"))
-        self.FrenchFries_3.setText(_translate("MainWindow", "French Fish"))
+        self.FrenchFries_3.setText(_translate("MainWindow", "French fries"))
         self.PlaceOrderB_3.setText(_translate("MainWindow", "Place order"))
         self.PorkChopSteak_3.setText(_translate("MainWindow", "Pork chop steak"))
         self.FrieFish_3.setText(_translate("MainWindow", "Fried Fish"))
@@ -1918,7 +1918,7 @@ class Ui_MainWindow(object):
         self.PlaceOrderB_4.setText(_translate("MainWindow", "Place order"))
         self.FrieFish_4.setText(_translate("MainWindow", "Fried Fish"))
         self.BackB_14.setText(_translate("MainWindow", "Back"))
-        self.FrenchFries_4.setText(_translate("MainWindow", "French Fish"))
+        self.FrenchFries_4.setText(_translate("MainWindow", "French fries"))
         self.Hamsteak_4.setText(_translate("MainWindow", "Ham steak"))
         self.PorkChopSteak_4.setText(_translate("MainWindow", "Pork chop steak"))
         self.SpicyChicken_4.setText(_translate("MainWindow", "Spicy Chicken"))
@@ -1926,7 +1926,7 @@ class Ui_MainWindow(object):
         self.Suasage_10.setText(_translate("MainWindow", "Suasage"))
         self.SpicyChicken_5.setText(_translate("MainWindow", "Spicy Chicken"))
         self.BakedPotato_5.setText(_translate("MainWindow", "Baked Potato"))
-        self.FrenchFries_5.setText(_translate("MainWindow", "French Fish"))
+        self.FrenchFries_5.setText(_translate("MainWindow", "French fries"))
         self.BackB_15.setText(_translate("MainWindow", "Back"))
         self.PorkChopSteak_5.setText(_translate("MainWindow", "Pork chop steak"))
         self.PlaceOrderB_5.setText(_translate("MainWindow", "Place order"))
@@ -1934,6 +1934,7 @@ class Ui_MainWindow(object):
         self.FrieFish_5.setText(_translate("MainWindow", "Fried Fish"))
         self.GrilledbutterBread_5.setText(_translate("MainWindow", "Grilled butter bread"))
         self.label_12.setText(_translate("MainWindow", "Order by Table 5"))
+
 
 
 if __name__ == "__main__":

@@ -1853,7 +1853,7 @@
        </font>
       </property>
       <property name="text">
-       <string>French Fish</string>
+       <string>French fries</string>
       </property>
      </widget>
      <widget class="QLabel" name="BakedPotato">
@@ -1998,7 +1998,7 @@
        </font>
       </property>
       <property name="text">
-       <string>French Fish</string>
+       <string>French fries</string>
       </property>
      </widget>
      <widget class="QSpinBox" name="Ham_2">
@@ -2425,7 +2425,7 @@
        </font>
       </property>
       <property name="text">
-       <string>French Fish</string>
+       <string>French fries</string>
       </property>
      </widget>
      <widget class="QPushButton" name="PlaceOrderB_3">
@@ -2863,7 +2863,7 @@
        </font>
       </property>
       <property name="text">
-       <string>French Fish</string>
+       <string>French fries</string>
       </property>
      </widget>
      <widget class="QSpinBox" name="Pork_4">
@@ -3175,7 +3175,7 @@
        </font>
       </property>
       <property name="text">
-       <string>French Fish</string>
+       <string>French fries</string>
       </property>
      </widget>
      <widget class="QPushButton" name="BackB_15">
