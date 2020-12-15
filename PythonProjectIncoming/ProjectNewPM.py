@@ -485,10 +485,10 @@ class Ui_MainWindow(object):
         self.label.setFont(font)
         self.label.setObjectName("label")
         self.Bestsellname = QtWidgets.QLabel(self.BestsellP)
-        self.Bestsellname.setGeometry(QtCore.QRect(270, 230, 481, 91))
+        self.Bestsellname.setGeometry(QtCore.QRect(30, 230, 851, 141))
         font = QtGui.QFont()
         font.setFamily("Agency FB")
-        font.setPointSize(26)
+        font.setPointSize(14)
         self.Bestsellname.setFont(font)
         self.Bestsellname.setObjectName("Bestsellname")
         self.MenuPicture_9 = QtWidgets.QLabel(self.BestsellP)
@@ -1302,6 +1302,7 @@ class Ui_MainWindow(object):
         self.stackedWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
+
                                         #Click
         self.MenuB.clicked.connect(self.goMenuP)
         self.BestsellB.clicked.connect(self.goBestsellP)
@@ -1420,9 +1421,6 @@ class Ui_MainWindow(object):
         self.bakedpotato = 0
         self.grilledbread = 0
         
-
-        
-
         
     def goMenuP(self):
         self.stackedWidget.setCurrentIndex(1)
@@ -1458,9 +1456,8 @@ class Ui_MainWindow(object):
         self.stackedWidget.setCurrentIndex(15)
 
     def ordertable1(self):
+        
         self.ordertable1set={}
-        
-        
         self.orderbread1 = self.Bread.value()
         if self.orderbread1 == "":
             self.orderbread1 = 0
@@ -1491,7 +1488,7 @@ class Ui_MainWindow(object):
         self.ordersuasage1 = self.Suasage.value()
         if self.ordersuasage1 == "":
             self.ordersuasage1 = 0
-
+            
         self.ordertable1set["chick1"] = self.orderchick1
         self.ordertable1set["fish1"] = self.orderfish1
         self.ordertable1set["ham1"] = self.orderham1
@@ -1760,19 +1757,20 @@ class Ui_MainWindow(object):
 
         print(max_value)
         
-        
+        lst_best_menu=[]
         for key , value in self.Bestselllist.items():
             if max_value == value:
                 print(key)
                 max_key = key
+                lst_best_menu.append(key)
+                
+        lst_best_menu=str(lst_best_menu)
+        lst_best_menu  = lst_best_menu.replace("[","")
+        lst_best_menu = lst_best_menu.replace("]","")
+        lst_best_menu = lst_best_menu.replace("'","")
 
         
-        self.Bestsellname.setText(str(str(max_key)+ " : " +str(max_value)))
-
-
-
-
-
+        self.Bestsellname.setText(lst_best_menu+ " : " +str(max_value))            
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
