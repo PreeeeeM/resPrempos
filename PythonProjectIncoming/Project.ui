@@ -1,0 +1,3348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>11</number>
+    </property>
+    <widget class="QWidget" name="HomeP">
+     <widget class="QPushButton" name="IncomeB">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>410</y>
+        <width>141</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Income</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BestsellB">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>280</y>
+        <width>181</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Best Selling Menu</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="OrderB">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>100</y>
+        <width>361</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Order Menu</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CheckbillB">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>360</y>
+        <width>361</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Check Bill</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="MenuB">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>170</y>
+        <width>141</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Menu</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>MenuPicture_2</zorder>
+     <zorder>IncomeB</zorder>
+     <zorder>BestsellB</zorder>
+     <zorder>OrderB</zorder>
+     <zorder>CheckbillB</zorder>
+     <zorder>MenuB</zorder>
+    </widget>
+    <widget class="QWidget" name="MenuP">
+     <widget class="QLabel" name="MenuPicture">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>Menu2.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BackB">
+      <property name="geometry">
+       <rect>
+        <x>742</x>
+        <y>577</y>
+        <width>131</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>28</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="CheckbillP">
+     <widget class="QPushButton" name="BackB_2">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>580</y>
+        <width>131</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table1C">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>50</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>31</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table2C">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>150</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>31</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table3C">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>250</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>31</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table4C">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>350</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>31</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table5C">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>450</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>31</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 5</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>900</width>
+        <height>700</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>1</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Check Bill page</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_3</zorder>
+     <zorder>BackB_2</zorder>
+     <zorder>Table1C</zorder>
+     <zorder>Table2C</zorder>
+     <zorder>Table3C</zorder>
+     <zorder>Table4C</zorder>
+     <zorder>Table5C</zorder>
+     <zorder>label_14</zorder>
+    </widget>
+    <widget class="QWidget" name="ConfirmBillP">
+     <widget class="QLabel" name="ShowTotal">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>160</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BackB_6">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>540</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>17</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Main Page</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BacktoCheck">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>460</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Check bill page</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PayB">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>480</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pay</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CheckBillBut">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>360</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>23</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Check Total</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>160</y>
+        <width>251</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Bill of Table 1 :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>MenuPicture_4</zorder>
+     <zorder>ShowTotal</zorder>
+     <zorder>BackB_6</zorder>
+     <zorder>BacktoCheck</zorder>
+     <zorder>PayB</zorder>
+     <zorder>CheckBillBut</zorder>
+     <zorder>label_3</zorder>
+    </widget>
+    <widget class="QWidget" name="ConfirmBillP2">
+     <widget class="QPushButton" name="BackB_7">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>500</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Main Page</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PayB_2">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>440</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pay</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CheckBillBut_2">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>320</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Check Total</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ShowTotal_2">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>150</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BacktoCheck_2">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>420</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Check bill page</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>150</y>
+        <width>261</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string> Bill of Table 2 :</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_5</zorder>
+     <zorder>BackB_7</zorder>
+     <zorder>PayB_2</zorder>
+     <zorder>CheckBillBut_2</zorder>
+     <zorder>ShowTotal_2</zorder>
+     <zorder>BacktoCheck_2</zorder>
+     <zorder>label_4</zorder>
+    </widget>
+    <widget class="QWidget" name="ConfirmBillP3">
+     <widget class="QPushButton" name="BackB_8">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>510</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Main Page</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PayB_3">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>450</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pay</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CheckBillBut_3">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>330</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Check Total</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ShowTotal_3">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>170</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BacktoCheck_3">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>430</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Check bill page</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>170</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Bill of Table 3 :</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_6</zorder>
+     <zorder>BackB_8</zorder>
+     <zorder>PayB_3</zorder>
+     <zorder>CheckBillBut_3</zorder>
+     <zorder>ShowTotal_3</zorder>
+     <zorder>BacktoCheck_3</zorder>
+     <zorder>label_5</zorder>
+    </widget>
+    <widget class="QWidget" name="ConfirmBillP4">
+     <widget class="QPushButton" name="BackB_9">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>470</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Main Page</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ShowTotal_4">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>130</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BacktoCheck_4">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>390</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Check bill page</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PayB_4">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>410</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pay</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CheckBillBut_4">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>290</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Check Total</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_7">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-10</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>140</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Bill of Table 4 : </string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_7</zorder>
+     <zorder>BackB_9</zorder>
+     <zorder>ShowTotal_4</zorder>
+     <zorder>BacktoCheck_4</zorder>
+     <zorder>PayB_4</zorder>
+     <zorder>CheckBillBut_4</zorder>
+     <zorder>label_6</zorder>
+    </widget>
+    <widget class="QWidget" name="ConfirmBillP5">
+     <widget class="QPushButton" name="BackB_10">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>480</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Main Page</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ShowTotal_5">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>160</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CheckBillBut_5">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>300</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Check Total</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BacktoCheck_5">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>400</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Check bill page</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PayB_5">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>420</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pay</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>160</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Bill of Table 5 :</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_8</zorder>
+     <zorder>BackB_10</zorder>
+     <zorder>ShowTotal_5</zorder>
+     <zorder>CheckBillBut_5</zorder>
+     <zorder>BacktoCheck_5</zorder>
+     <zorder>PayB_5</zorder>
+     <zorder>label_7</zorder>
+    </widget>
+    <widget class="QWidget" name="BestsellP">
+     <widget class="QPushButton" name="BackB_3">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>570</y>
+        <width>131</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>50</y>
+        <width>241</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Best Selling Menu</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Bestsellname">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>230</y>
+        <width>481</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Click the below button</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Checkbestsell">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>410</y>
+        <width>361</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Check Best selling menu</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_9</zorder>
+     <zorder>BackB_3</zorder>
+     <zorder>label</zorder>
+     <zorder>Bestsellname</zorder>
+     <zorder>Checkbestsell</zorder>
+    </widget>
+    <widget class="QWidget" name="IncomeP">
+     <widget class="QPushButton" name="BackB_4">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>580</y>
+        <width>131</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>80</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>37</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Income</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ShowIncome">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>190</y>
+        <width>281</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>37</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ShowIncomeB">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>320</y>
+        <width>231</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Show Income</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_10">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>0</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>MenuPicture_10</zorder>
+     <zorder>BackB_4</zorder>
+     <zorder>label_2</zorder>
+     <zorder>ShowIncome</zorder>
+     <zorder>ShowIncomeB</zorder>
+    </widget>
+    <widget class="QWidget" name="OrderP">
+     <widget class="QPushButton" name="BackB_5">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>580</y>
+        <width>131</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table2O">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>140</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table3O">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>250</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table1O">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>30</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table4O">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>360</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Table5O">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>460</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Table 5</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_11">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-10</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>201</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Order Page</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_11</zorder>
+     <zorder>BackB_5</zorder>
+     <zorder>Table2O</zorder>
+     <zorder>Table3O</zorder>
+     <zorder>Table1O</zorder>
+     <zorder>Table4O</zorder>
+     <zorder>Table5O</zorder>
+     <zorder>label_13</zorder>
+    </widget>
+    <widget class="QWidget" name="OrderbyTable1">
+     <widget class="QSpinBox" name="Chick">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>110</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Fish">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>230</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Ham">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>350</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Pork">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>470</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Suasage">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>580</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="FF">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>220</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Potato">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>350</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Bread">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>470</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PlaceOrderB">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>520</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Place order</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BackB_11">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>597</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SpicyChicken">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>70</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Spicy Chicken</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrieFish">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>200</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fried Fish</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Hamsteak">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>325</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ham steak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PorkChopSteak">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>430</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pork chop steak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Suasage_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>535</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Suasage</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrenchFries">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>185</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>French Fish</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="BakedPotato">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>315</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Baked Potato</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GrilledbutterBread">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>435</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Grilled butter bread</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_12">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>0</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>40</y>
+        <width>321</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Order by Table 1</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_12</zorder>
+     <zorder>Chick</zorder>
+     <zorder>Fish</zorder>
+     <zorder>Ham</zorder>
+     <zorder>Pork</zorder>
+     <zorder>Suasage</zorder>
+     <zorder>FF</zorder>
+     <zorder>Potato</zorder>
+     <zorder>Bread</zorder>
+     <zorder>PlaceOrderB</zorder>
+     <zorder>BackB_11</zorder>
+     <zorder>SpicyChicken</zorder>
+     <zorder>FrieFish</zorder>
+     <zorder>Hamsteak</zorder>
+     <zorder>PorkChopSteak</zorder>
+     <zorder>Suasage_2</zorder>
+     <zorder>FrenchFries</zorder>
+     <zorder>BakedPotato</zorder>
+     <zorder>GrilledbutterBread</zorder>
+     <zorder>label_8</zorder>
+    </widget>
+    <widget class="QWidget" name="OrderbyTable2">
+     <widget class="QSpinBox" name="Bread_2">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>450</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrenchFries_2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>165</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>French Fish</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Ham_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>330</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Fish_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>210</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GrilledbutterBread_2">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>415</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Grilled butter bread</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="FF_2">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>200</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Hamsteak_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>295</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ham steak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Suasage_4">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>515</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Suasage</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PlaceOrderB_2">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>500</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Place order</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Chick_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>90</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Suasage_3">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>560</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrieFish_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>169</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fried Fish</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SpicyChicken_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>45</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Spicy Chicken</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BackB_12">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>577</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="BakedPotato_2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>295</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Baked Potato</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Pork_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>450</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Potato_2">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>330</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PorkChopSteak_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>405</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pork chop steak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_13">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>-10</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>50</y>
+        <width>321</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Order by Table 2</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_13</zorder>
+     <zorder>Bread_2</zorder>
+     <zorder>FrenchFries_2</zorder>
+     <zorder>Ham_2</zorder>
+     <zorder>Fish_2</zorder>
+     <zorder>GrilledbutterBread_2</zorder>
+     <zorder>FF_2</zorder>
+     <zorder>Hamsteak_2</zorder>
+     <zorder>Suasage_4</zorder>
+     <zorder>PlaceOrderB_2</zorder>
+     <zorder>Chick_2</zorder>
+     <zorder>Suasage_3</zorder>
+     <zorder>FrieFish_2</zorder>
+     <zorder>SpicyChicken_2</zorder>
+     <zorder>BackB_12</zorder>
+     <zorder>BakedPotato_2</zorder>
+     <zorder>Pork_2</zorder>
+     <zorder>Potato_2</zorder>
+     <zorder>PorkChopSteak_2</zorder>
+     <zorder>label_9</zorder>
+    </widget>
+    <widget class="QWidget" name="OrderbyTable3">
+     <widget class="QSpinBox" name="Bread_3">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>440</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Fish_3">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Potato_3">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>320</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BackB_13">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>567</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Suasage_5">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>550</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrenchFries_3">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>155</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>French Fish</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PlaceOrderB_3">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>490</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Place order</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PorkChopSteak_3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>410</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pork chop steak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrieFish_3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>159</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fried Fish</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Hamsteak_3">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>285</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ham steak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="BakedPotato_3">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>285</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Baked Potato</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Suasage_6">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>510</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Suasage</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Pork_3">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>440</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SpicyChicken_3">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>35</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Spicy Chicken</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Chick_3">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>80</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Ham_3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>320</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="FF_3">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>190</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GrilledbutterBread_3">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>395</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Grilled butter bread</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_14">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-10</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>40</y>
+        <width>321</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Order by Table 3</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_14</zorder>
+     <zorder>Bread_3</zorder>
+     <zorder>Fish_3</zorder>
+     <zorder>Potato_3</zorder>
+     <zorder>BackB_13</zorder>
+     <zorder>Suasage_5</zorder>
+     <zorder>FrenchFries_3</zorder>
+     <zorder>PlaceOrderB_3</zorder>
+     <zorder>PorkChopSteak_3</zorder>
+     <zorder>FrieFish_3</zorder>
+     <zorder>Hamsteak_3</zorder>
+     <zorder>BakedPotato_3</zorder>
+     <zorder>Suasage_6</zorder>
+     <zorder>Pork_3</zorder>
+     <zorder>SpicyChicken_3</zorder>
+     <zorder>Chick_3</zorder>
+     <zorder>Ham_3</zorder>
+     <zorder>FF_3</zorder>
+     <zorder>GrilledbutterBread_3</zorder>
+     <zorder>label_10</zorder>
+    </widget>
+    <widget class="QWidget" name="OrderbyTable4">
+     <widget class="QSpinBox" name="Bread_4">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>430</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Suasage_8">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>505</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Suasage</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Fish_4">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>190</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="BakedPotato_4">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>275</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Baked Potato</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GrilledbutterBread_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>395</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Grilled butter bread</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PlaceOrderB_4">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>480</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Place order</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrieFish_4">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>160</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fried Fish</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BackB_14">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>557</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrenchFries_4">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>145</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>French Fish</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Pork_4">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>430</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Ham_4">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>310</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Hamsteak_4">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>280</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ham steak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PorkChopSteak_4">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>385</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pork chop steak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SpicyChicken_4">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>30</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Spicy Chicken</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Chick_4">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>70</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Suasage_7">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>540</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Potato_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>310</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="FF_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>180</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_15">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-10</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>30</y>
+        <width>321</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Order by Table 4</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_15</zorder>
+     <zorder>Bread_4</zorder>
+     <zorder>Suasage_8</zorder>
+     <zorder>Fish_4</zorder>
+     <zorder>BakedPotato_4</zorder>
+     <zorder>GrilledbutterBread_4</zorder>
+     <zorder>PlaceOrderB_4</zorder>
+     <zorder>FrieFish_4</zorder>
+     <zorder>BackB_14</zorder>
+     <zorder>FrenchFries_4</zorder>
+     <zorder>Pork_4</zorder>
+     <zorder>Ham_4</zorder>
+     <zorder>Hamsteak_4</zorder>
+     <zorder>PorkChopSteak_4</zorder>
+     <zorder>SpicyChicken_4</zorder>
+     <zorder>Chick_4</zorder>
+     <zorder>Suasage_7</zorder>
+     <zorder>Potato_4</zorder>
+     <zorder>FF_4</zorder>
+     <zorder>label_11</zorder>
+    </widget>
+    <widget class="QWidget" name="OrderbyTable5">
+     <widget class="QSpinBox" name="Bread_5">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>440</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Suasage_9">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>550</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Suasage_10">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>515</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Suasage</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SpicyChicken_5">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Spicy Chicken</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="BakedPotato_5">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>285</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Baked Potato</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrenchFries_5">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>155</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>French Fish</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BackB_15">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>567</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PorkChopSteak_5">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>405</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pork chop steak</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PlaceOrderB_5">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>490</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Place order</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Hamsteak_5">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>295</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ham steak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FrieFish_5">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>170</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fried Fish</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Chick_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Ham_5">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>320</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Pork_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>440</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Potato_5">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>320</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Fish_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>200</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="FF_5">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>190</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GrilledbutterBread_5">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>405</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Grilled butter bread</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MenuPicture_16">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-10</y>
+        <width>900</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap>ColorBackground.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>50</y>
+        <width>321</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Order by Table 5</string>
+      </property>
+     </widget>
+     <zorder>MenuPicture_16</zorder>
+     <zorder>Bread_5</zorder>
+     <zorder>Suasage_9</zorder>
+     <zorder>Suasage_10</zorder>
+     <zorder>SpicyChicken_5</zorder>
+     <zorder>BakedPotato_5</zorder>
+     <zorder>FrenchFries_5</zorder>
+     <zorder>BackB_15</zorder>
+     <zorder>PorkChopSteak_5</zorder>
+     <zorder>PlaceOrderB_5</zorder>
+     <zorder>Hamsteak_5</zorder>
+     <zorder>FrieFish_5</zorder>
+     <zorder>Chick_5</zorder>
+     <zorder>Ham_5</zorder>
+     <zorder>Pork_5</zorder>
+     <zorder>Potato_5</zorder>
+     <zorder>Fish_5</zorder>
+     <zorder>FF_5</zorder>
+     <zorder>GrilledbutterBread_5</zorder>
+     <zorder>label_12</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
